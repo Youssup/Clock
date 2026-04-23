@@ -37,7 +37,7 @@ body {
 }
 
 .six {
-  bottom: 6cqmax;
+  bottom: 65px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -80,11 +80,8 @@ body {
 
 .arrows .hour {
   height: 80px;
-  transform: rotate(30deg);
 }
 
 .arrows .second {
   background-color: goldenrod;
-  transform: rotate(250deg);
- 
 }
