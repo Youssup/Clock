@@ -5,4 +5,28 @@ body {
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
+    display: flex;
+    height: 100vh;
+}
+
+.clock {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(162, 161, 161);
+    border-radius: 100%;
+    border: 5px solid rgb(151, 151, 151);
+    box-shadow: 1px 1px 4px rgba(0,0,0,.7);
+}
+
+.numbers div {
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.twelve {
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
 }
